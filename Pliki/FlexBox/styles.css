@@ -1,0 +1,53 @@
+.container {
+    display: flex;
+    background-color: bisque;
+    height: 100px;
+    margin: 30px;
+    gap: 10px;
+}
+
+.item {
+    width: 20%;
+    background-color: #FF7786;
+}
+.direction {
+    flex-direction: column;
+    flex-direction: row-reverse;
+    flex-direction: column-reverse;
+    flex-direction: row;
+}
+
+.justifyContent {
+    justify-content: flex-start;
+    justify-content: flex-end;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly;
+}
+
+.alignItems {
+    align-items: flex-start;
+    align-items: flex-end;
+    align-items: center;
+    align-items: stretch;
+    align-items: baseline;
+}
+
+.alignSelf {
+    align-self: flex-start;
+    align-self: flex-end;
+    align-self: center;
+    align-self: baseline;
+    align-self: stretch;
+}
+
+.alignContent {
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-content: flex-end;
+    align-content: center;
+    align-content: stretch;
+    align-content: space-between;
+    align-content: space-around;
+}
