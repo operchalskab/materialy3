@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    color: white;
+    background-color: #131326;
+    font-size: 3em;
+    padding: 15px;
+    text-align: center;
+}
+
+.listContent {
+    margin: 30px;
+}
+
+.listOfItems {
+    list-style: none;
+    padding: 0;
+}
+
+.item {
+    border: 1px solid lightgray;
+    width: 300px;
+    margin: 15px 0;
+    padding: 10px;
+}
+
+.textInput {
+    border: 1px solid lightgray;
+    padding: 10px;
+}
+
+#addItem {
+    padding: 10px;
+}
+
+.itemRed {
+    color: red
+}
+
+.newItem {
+    color: blue;
+}
