@@ -1,0 +1,105 @@
+.container {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-gap: 20px;
+    font-size: 2em;
+    color: #fff;
+    margin: 50px;
+    background-color: bisque;
+}
+
+.box {
+    background-color: #FF7786;
+    padding: 20px;
+}
+
+.containerFr {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    font-size: 2em;
+    color: #fff;
+    margin: 50px;
+    background-color: bisque;
+}
+
+/*
+-----------------------------------------------------------------------------------------------------------
+*/
+
+.se1 {
+    grid-column: 2 / 3;
+}
+
+.se2 {
+    grid-column: 2 / 3;
+}
+
+.se3 {
+    grid-row: 1 / 2;
+    grid-column: 3 / 4;
+}
+
+/*
+-----------------------------------------------------------------------------------------------------------
+*/
+
+.containerArea {
+    grid-template-areas: "a a b"
+    "a a c";
+}
+
+.a1 {
+    grid-area: a;
+}
+
+.b1 {
+    grid-area: b;
+}
+
+.c1 {
+    grid-area: c;
+}
+
+/*
+-----------------------------------------------------------------------------------------------------------
+*/
+
+.justifyItems {
+    justify-items: start;
+    justify-items: end;
+    justify-items: center;
+    justify-items: stretch;
+}
+
+.alignItems {
+    grid-template-rows: 150px 150px;
+    align-items: start;
+    align-items: end;
+    align-items: center;
+    align-items: stretch;
+}
+
+.justifyContent {
+    justify-content: start;
+    justify-content: end;
+    justify-content: center;
+    justify-content: stretch;
+    justify-content: space-around;
+    justify-content: space-between;
+    justify-content: space-evenly;
+}
+
+.alignSelf {
+    align-self: start;
+    align-self: end;
+    align-self: center;
+    align-self: stretch;
+}
+
+.justifySelf {
+    justify-self: start;
+    justify-self: end;
+    justify-self: center;
+    justify-self: stretch   ;
+}
