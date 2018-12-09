@@ -1,0 +1,14 @@
+1)  Napisz funkcje która przyjmuje jeden parametr który jest liczbą.
+    Funkcja niech wypisuję na konsolę "Liczba nieparzysta" w przypadku gdy przy wywołaniu funkcji została
+    podana liczba nieparzysta lub "Liczba parzysta" w przypadku gdy przy wywołaniu funkcji została podana liczba parzysta.
+    Zadanie wykonaj z wykorzystaniem konstrukcji IF
+
+2)  Napisz funckcję która będzie wypisywać na konsolę liczby od 1 do 50 przy czym liczby z przedziału:
+    10-19 wypisz tylko nieparzyste
+    20-29 wypisz tylko parzyste
+    30-39 wypisz podzielne przez 3
+    40-50 wypisz dwukrotność liczby
+
+3)  Zaprojektuj stronę na której zamieścisz wynik losowania 6 liczb. Liczby wygeneruj za pomocą Math.random() z zakresu 1-49.
+    Liczby przechowuj w tablicy. Przy każdym odswieżeniu strony musi być wyświetlany nowy zestaw liczb.
+    Liczby nie mogą się powtarzać
